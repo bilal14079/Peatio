@@ -1,4 +1,4 @@
-An open-source crypto currency exchange
+
 =====================================
 
 **I'LL BE BACK**
@@ -141,5 +141,6 @@ Peatio is released under the terms of the MIT license. See [http://peatio.mit-li
 **[This illustration copyright for Peatio Team]**
 
 ![logo](public/peatio.png)
+
 
 
