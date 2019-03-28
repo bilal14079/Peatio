@@ -25,7 +25,7 @@ Peatio::Application.configure do
   config.action_mailer.delivery_method = :file
   config.action_mailer.file_settings = { location: 'tmp/mails' }
 
-  config.action_mailer.default_url_options = { :host => ENV["URL_HOST"] }
+  config.action_mailer.default_url_options = { host: 'localhost', port: 3000 }
 
   # Print deprecation notices to the Rails logger.
   config.active_support.deprecation = :log
