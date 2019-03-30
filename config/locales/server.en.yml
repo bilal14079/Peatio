@@ -467,6 +467,20 @@ en:
       latency: 1 confirmation
       transfer: Manual
       go: Deposit
+    newcoin:
+      key: Block Chain
+      title: Newcoin Deposits
+      intro: Deposit newcoin from your own wallet address to Peatio account
+      latency: 1 confirmation
+      transfer: Manual
+      go: Deposit
+    litecoin:
+      key: Block Chain
+      title: Litecoin Deposits
+      intro: Deposit litecoin from your own wallet address to Peatio account
+      latency: 1 confirmation
+      transfer: Manual
+      go: Deposit  
   deposits/bank:
     aasm_state:
       submitting: Submitting
@@ -1842,6 +1856,20 @@ en:
       key: Blockchain
       title: Bitcoin Blockchain
       intro: Withdraw Bitcoin to your own Bitcoin wallet
+      latency: 30 minutes
+      transfer: Manual
+      go: Withdraw
+    newcoin:
+      key: Blockchain
+      title: Newcoin Blockchain
+      intro: Withdraw Newcoin to your own Bitcoin wallet
+      latency: 30 minutes
+      transfer: Manual
+      go: Withdraw
+    litecoin:
+      key: Blockchain
+      title: Litecoin Blockchain
+      intro: Withdraw Litecoin to your own Bitcoin wallet
       latency: 30 minutes
       transfer: Manual
       go: Withdraw

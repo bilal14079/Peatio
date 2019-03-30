@@ -9,7 +9,6 @@ module Private
     def show
       @bid = params[:bid]
       @ask = params[:ask]
-
       @market        = current_market
       @markets       = Market.all.sort
       @market_groups = @markets.map(&:quote_unit).uniq
@@ -23,7 +22,7 @@ module Private
       @order_ask = OrderAsk.new ord_type: 'limit'
 
       set_member_data if current_user
-      gon.jbuilder
+      # gon.jbuilder
     end
 
     private
